@@ -10,6 +10,15 @@
    
     
 }
+
+.second{
+    width: 1350px;
+    height: 500px;
+    background-color: rgb(231, 126, 208);
+    border-radius: 15px;
+   
+    
+}
 img{
     width: 550px;
     height: 442px;
