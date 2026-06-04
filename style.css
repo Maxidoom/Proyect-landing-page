@@ -16,3 +16,33 @@ img{
   display : flex;
     
 }
+.parent {
+    display: flex;
+    justify-content: space-between;
+     margin: 20px;
+   
+}
+
+.child1 {
+    width: 400px;
+    height: 400px;
+    background-color:rgb(231, 166, 209);
+    top:500px;
+    border-radius: 15px;
+}
+
+.child2 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(231, 166, 209);
+    top:500px;
+      border-radius: 15px;
+}
+.child3 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(231, 166, 209);
+    top:500px;
+      border-radius: 15px;
+}
+
