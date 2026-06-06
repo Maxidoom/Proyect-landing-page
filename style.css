@@ -3,7 +3,7 @@
 }
 
 .first{
-    width: 1350px;
+    width: auto;
     height: 500px;
     background-color: rgb(166, 231, 166);
     border-radius: 15px;
@@ -12,11 +12,11 @@
 }
 
 .second{
-    width: 1350px;
+    width: auto;
     height: 500px;
     background-color: rgb(231, 126, 208);
     border-radius: 15px;
-   
+   margin-top: 20px;
     
 }
 img{
@@ -35,7 +35,7 @@ img{
 .child1 {
     width: 400px;
     height: 400px;
-    background-color:rgb(231, 166, 209);
+    background-color:rgb(231, 126, 208);
     top:500px;
     border-radius: 15px;
 }
@@ -43,7 +43,7 @@ img{
 .child2 {
     width: 400px;
     height: 400px;
-    background-color: rgb(231, 166, 209);
+    background-color: rgb(231, 126, 208);
     top:500px;
       border-radius: 15px;
 }
