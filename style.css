@@ -75,6 +75,22 @@ img{
     top:500px;
       border-radius: 15px;
 }
+<<<<<<< HEAD
+.navbar{
+    position: fixed;
+    top: 20px;;
+    left: 20px;;
+    right: 20px;;
+    width: auto;
+    background-color: #5be99b;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+
 .footer {
     height: fit-content;
     margin-top: 60px;
@@ -87,3 +103,4 @@ img{
     border-top: 1px solid rgba(239, 37, 37, 0.1);
 }
 
+>>>>>>> 813ca1cf2e18fd5f8f89b899e3b370fbf731287b
