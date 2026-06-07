@@ -2,13 +2,34 @@
   margin: 0;
 }
 
-.first{
-    width: auto;
+.pop-up {
+    width: 93%;
     height: 500px;
     background-color: rgb(166, 231, 166);
     border-radius: 15px;
-   
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 101;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
     
+}
+.cerrar {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(255, 161, 197);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    background-color: #fbff01;
 }
 
 .second{
@@ -50,7 +71,7 @@ img{
 .child3 {
     width: 400px;
     height: 400px;
-    background-color: rgb(231, 166, 209);
+    background-color: rgb(231, 126, 208);
     top:500px;
       border-radius: 15px;
 }
