@@ -75,6 +75,7 @@ img{
     top:500px;
       border-radius: 15px;
 }
+<<<<<<< HEAD
 .navbar{
     position: fixed;
     top: 20px;;
@@ -89,3 +90,17 @@ img{
     align-items: center;
     z-index: 999;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+=======
+.footer {
+    height: fit-content;
+    margin-top: 60px;
+    padding: 30px 20px;
+    text-align: center;
+
+    background: var(--card);
+    color: var(--text);
+
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+>>>>>>> 813ca1cf2e18fd5f8f89b899e3b370fbf731287b
