@@ -1,9 +1,5 @@
-{
-  margin: 0;
-}
-
 .pop-up {
-    width: 93%;
+    width: 75%;
     height: 500px;
     background-color: rgb(166, 231, 166);
     border-radius: 15px;
@@ -12,7 +8,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     z-index: 101;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
@@ -53,43 +49,63 @@ img{
    
 }
 
-.child1 {
-    width: 400px;
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.child1 ,.child2 , .child3 {
+    width: 300px;
     height: 400px;
     background-color:rgb(231, 126, 208);
-    top:500px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;  
+    align-items:normal;    
+    text-align: center;
+   
+    
+}
+.prod1{
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    
+    
 }
 
-.child2 {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(231, 126, 208);
-    top:500px;
-      border-radius: 15px;
-}
-.child3 {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(231, 126, 208);
-    top:500px;
-      border-radius: 15px;
+.prod2{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    
 }
 
+.prod3{
+    margin-top: 10px;
+    width: auto;
+    height: 150px;
+    margin-left: 50px;
+    
+}
 .navbar{
     position: fixed;
-    top: 20px;;
+    top: 5px;;
     left: 20px;;
     right: 20px;;
     width: auto;
-    background-color: #5be99b;
+    background-color:rgb(166, 231, 166);
     color: white;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 999;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3); 
+    border-radius: 15px;
+}
 
 .footer {
     height: fit-content;
