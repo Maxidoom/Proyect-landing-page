@@ -1,3 +1,10 @@
+
+
+{
+
+  margin: 0;
+}
+
 .pop-up {
     width: 75%;
     height: 60%;
@@ -112,6 +119,7 @@ h2{
     margin-left: 50px;
     
 }
+
 .navbar{
     position: fixed;
     top: 5px;;
@@ -119,8 +127,13 @@ h2{
     left: 20px;;
     right: 20px;;
     width: auto;
+
+    background-color: #5be99b;
+    color: #ffffff;
+
     background-color: #936c31;
     color: rgb(0, 0, 0);
+
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -132,13 +145,15 @@ h2{
 }
 
 .footer {
+    top: 0px;
     height: fit-content;
     margin-top: 60px;
     padding: 30px 20px;
     text-align: left;
+   color: rgb(0, 0, 0);
+  background-color: #5be99b;
+  border-radius: 15px;
 
-    background: var(--card);
-    color: var(--text);
 
     border-top: 1px solid rgba(239, 37, 37, 0.1);
 }
