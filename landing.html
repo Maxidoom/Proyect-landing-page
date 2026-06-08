@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,6 +31,9 @@
    
 <h3>Por tiempo limitado!!</h3>
 
+
+<a id="contador">24:00:00</a>
+
 <img src="./imagenes/MIAUUU-removebg-preview.png" alt="mdd">   
 
    
@@ -41,17 +44,40 @@
 	
 		</div>
  </div>
+
 <script>
     function cerrarPopUp() {
         document.querySelector('.pop-up').style.display = 'none';
     }
+
+    let tiempo = 86400;
+
+    const contador = document.getElementById("contador");
+
+    setInterval(function () {
+        let horas = Math.floor(tiempo / 3600);
+        let minutos = Math.floor((tiempo % 3600) / 60);
+        let segundos = tiempo % 60;
+
+        contador.textContent =
+            String(horas).padStart(2, "0") + ":" +
+            String(minutos).padStart(2, "0") + ":" +
+            String(segundos).padStart(2, "0");
+
+        tiempo--;
+    }, 1000);
 </script>
    
+
 <div class="second">
     <img src="./imagenes/shopping-removebg-preview.png"></img>
 </div>
-<div class="third"></div>
-<div class="fourth"></div>
+<div class="third">
+    <img src="./imagenes/perro y gato.png"></img>
+</div>
+<div class="fourth"> 
+    <img src="./imagenes/java_escript_2-removebg-preview.png" alt="servidores">
+</div>
 
 <h2>Mas Productos</h2>
 <div class="parent">
@@ -80,18 +106,13 @@
         </div>
         </div>
 
-       <footer class="footer">
-           
-    <p>lo del ig</p>
-      <p>gmail</p>
-        <p>numero </p>
+    <footer class="footer">       
+        <p>lo del ig</p>
+        <p>gmail</p>
+            <p>numero </p>
           <a>link gitthub</a>
-    <p>Hecho con HTML y CSS</p>
-
-    <p>(noS)</p>
-
-</footer>
-     
+        <p>Hecho con HTML y CSS</p>
+        <p>(noS)</p>
+    </footer>
 </body>
-
-</html> 
+</html>
