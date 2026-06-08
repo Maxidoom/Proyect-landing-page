@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 {
 
@@ -6,6 +7,8 @@
 }
 
 
+=======
+>>>>>>> 70c008a15dcecebde39e4379e171277f0a74c5f7
 .pop-up {
     width: 75%;
     height: 60%;
@@ -95,15 +98,15 @@ h2{
 }
 .prod1{
     display: flex;
-    justify-content: center;
     width: 150px;
     height: 150px;
-    
-    
+    justify-content: center;
+    margin-left: 60px;
 }
 
 .prod2{
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
     width: 150px;
     height: 150px;
     margin-left: 50px;
@@ -111,10 +114,12 @@ h2{
 }
 
 .prod3{
-    margin-top: 10px;
+   
+
     width: auto;
     height: 150px;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -139,7 +144,6 @@ h2{
     z-index: 999;
     border-radius: 15px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-    text-type: none;
 }
 
 .footer {
