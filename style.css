@@ -87,15 +87,15 @@ h2{
 }
 .prod1{
     display: flex;
-    justify-content: center;
     width: 150px;
     height: 150px;
-    
-    
+    justify-content: center;
+    margin-left: 60px;
 }
 
 .prod2{
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
     width: 150px;
     height: 150px;
     margin-left: 50px;
@@ -103,10 +103,12 @@ h2{
 }
 
 .prod3{
-    margin-top: 10px;
+   
+
     width: auto;
     height: 150px;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
     
 }
 .navbar{
@@ -125,7 +127,6 @@ h2{
     z-index: 999;
     border-radius: 15px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-    text-type: none;
 }
 
 .footer {
@@ -133,8 +134,6 @@ h2{
     margin-top: 60px;
     padding: 30px 20px;
     text-align: left;
-
-   
     border-top: 1px solid rgba(239, 37, 37, 0.1);
 }
 
