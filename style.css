@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 {
@@ -5,43 +6,65 @@
   margin: 0;
 }
 
+=======
+>>>>>>> d8ea85aea6a3d9e3e6b12c46d677fdd55e1d8e78
 .pop-up {
-    width: 93%;
-    height: 500px;
-    background-color: rgb(166, 231, 166);
+    width: 75%;
+    height: 60%;
+    background-color: rgb(202, 148, 82);
     border-radius: 15px;
     position: fixed;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 30px;
-    border-radius: 10px;
+     padding-bottom: 15px;
+    border-radius: 15px;
     text-align: center;
     z-index: 101;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    
+   
+}
+.pop-up img{
+    width: auto;
+    height: 300px;
+    margin-top: 64px;
+       
 }
 .cerrar {
-    margin-top: 15px;
-    padding: 10px 15px;
+   
+    padding: 10px ;
     border: none;
-    background-color: rgb(255, 161, 197);
+    background-color: rgb(103, 76, 35);
     color: rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
 }
 
 .cerrar:hover {
-    background-color: #fbff01;
+    background-color: #ff0101;
 }
 
 .second{
     width: auto;
     height: 500px;
-    background-color: rgb(231, 126, 208);
+    background-color: rgb(138, 102, 52);
     border-radius: 15px;
-   margin-top: 20px;
-    
+   margin-top: 120px;
+}
+.third{
+    width: auto;
+    height: 500px;
+    background-color: rgb(138, 102, 52);
+    border-radius: 15px;
+   margin-top: 120px;
+}
+.fourth{
+    width: auto;
+    height: 500px;
+    background-color: rgb(138, 102, 52);
+    border-radius: 15px;
+   margin-top: 120px;
 }
 img{
     width: 550px;
@@ -56,46 +79,75 @@ img{
    
 }
 
-.child1 {
-    width: 400px;
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.child1 ,.child2 , .child3 {
+    width: 300px;
     height: 400px;
-    background-color:rgb(231, 126, 208);
+    background-color:rgb(102, 67, 24);
     top:500px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;  
+    align-items:normal;    
+    text-align: center;
+    
+}
+.prod1{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    
+    
 }
 
-.child2 {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(231, 126, 208);
-    top:500px;
-      border-radius: 15px;
-}
-.child3 {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(231, 126, 208);
-    top:500px;
-      border-radius: 15px;
+.prod2{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    
 }
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 93eb8df4a28d3079847e9cc868791fecc59ee24e
+=======
+.prod3{
+    margin-top: 10px;
+    width: auto;
+    height: 150px;
+    margin-left: 50px;
+    
+}
+>>>>>>> d8ea85aea6a3d9e3e6b12c46d677fdd55e1d8e78
 .navbar{
     position: fixed;
-    top: 20px;;
+    top: 5px;;
+    top: 5px;;
     left: 20px;;
     right: 20px;;
     width: auto;
+<<<<<<< HEAD
     background-color: #5be99b;
     color: #ffffff;
+=======
+    background-color: #936c31;
+    color: rgb(0, 0, 0);
+>>>>>>> d8ea85aea6a3d9e3e6b12c46d677fdd55e1d8e78
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 999;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    text-type: none;
+}
 
 .footer {
     top: 0px;
@@ -107,8 +159,12 @@ img{
   background-color: #5be99b;
   border-radius: 15px;
 
+<<<<<<< HEAD
     
 
+=======
+   
+>>>>>>> d8ea85aea6a3d9e3e6b12c46d677fdd55e1d8e78
     border-top: 1px solid rgba(239, 37, 37, 0.1);
 }
 
