@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,6 +28,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
     <h3>Por tiempo limitado!!</h3>
+
+
+<a id="contador">24:00:00</a>
     <img src="./imagenes/MIAUUU-removebg-preview.png" alt="mdd">   
     <button class="cerrar" onclick="cerrarPopUp()">salir del basurero</button> 
 	</div>
@@ -37,6 +40,23 @@
     function cerrarPopUp() {
         document.querySelector('.pop-up').style.display = 'none';
     }
+
+    let tiempo = 86400;
+
+    const contador = document.getElementById("contador");
+
+    setInterval(function () {
+        let horas = Math.floor(tiempo / 3600);
+        let minutos = Math.floor((tiempo % 3600) / 60);
+        let segundos = tiempo % 60;
+
+        contador.textContent =
+            String(horas).padStart(2, "0") + ":" +
+            String(minutos).padStart(2, "0") + ":" +
+            String(segundos).padStart(2, "0");
+
+        tiempo--;
+    }, 1000);
 </script>
    
 
@@ -86,4 +106,4 @@
         <p>(noS)</p>
     </footer>
 </body>
-</html> 
+</html>
