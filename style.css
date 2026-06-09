@@ -164,12 +164,7 @@ h2{
    color: rgb(0, 0, 0);
   background-color:  #936c31;
   border-radius: 15px;
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> 17ae441daee6ab381651269c3376593dceba1385
     border-top: 1px solid rgba(239, 37, 37, 0.1);
 }
 
@@ -199,14 +194,13 @@ h2{
     text-align: center;
     margin: 10px 0;
 }
-<<<<<<< HEAD
 .fourth p {
     font-family: Arial, sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 0);
     margin: 0,px;
     text-align: justify;
-=======
+
 .texto-oferta {
     font-size: 22px;
     margin-top: 10px;
@@ -221,5 +215,5 @@ h2{
     top: 180px;
     width: 320px;
     height: auto;
->>>>>>> 17ae441daee6ab381651269c3376593dceba1385
+
 }
