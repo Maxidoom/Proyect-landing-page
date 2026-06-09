@@ -149,12 +149,14 @@ h2{
 .footer {
     top: 0px;
     height: fit-content;
-    margin-top: 60px;
-    padding: 30px 20px;
+    margin-top: 150px;
+    padding: 50px 40px;
+    justify-content: center;
     text-align: left;
    color: rgb(0, 0, 0);
   background-color:  #936c31;
   border-radius: 15px;
+
 
 
     border-top: 1px solid rgba(239, 37, 37, 0.1);
@@ -185,4 +187,11 @@ h2{
     font-weight: bold;
     text-align: center;
     margin: 10px 0;
+}
+.fourth p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0,px;
+    text-align: justify;
 }
