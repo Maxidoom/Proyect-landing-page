@@ -15,7 +15,7 @@
     text-align: center;
     z-index: 101;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-   
+  
 }
 .pop-up img{
     width: auto;
@@ -49,15 +49,25 @@
     background-color: rgb(138, 102, 52);
     border-radius: 15px;
    margin-top: 120px;
+   display: flex;
+   
+    flex-direction: row-reverse;
+     gap: 20px  ;
 }
 .third img{
-  margin-left:900px;
+    width: auto;
+    height: 450px;
+    display : flex;
+    justify-self:end;
+     gap: 20px;
 }
-.third img2{
-  margin-left:900px;  
-    
-    
-
+.third p{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    flex: 1;
+    align
 }
 
 .fourth{
@@ -155,8 +165,6 @@ h2{
    color: rgb(0, 0, 0);
   background-color:  #936c31;
   border-radius: 15px;
-
-
     border-top: 1px solid rgba(239, 37, 37, 0.1);
 }
 
