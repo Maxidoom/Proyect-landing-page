@@ -1,3 +1,11 @@
+body{
+    padding-top: 100px;
+background-color: rgb(192, 138, 66);
+color: #4d2e00;
+}
+p{
+    font-weight: bold;
+}
 .pop-up {
     width: 80%;
     height: 60%;
@@ -94,15 +102,17 @@
     margin-top: 120px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .fourth p{
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: #4d2e00;
     margin: 0;
    
      display: flex;
     flex-direction: column;
     align-self: center;
+    
 }
 .fourth img {
     width: auto;
@@ -127,28 +137,44 @@ img {
 h2 {
     text-align: center;
     margin-top: 20px;
+    font-size: 50px;
 }
-
+#h1{
+    text-align: center;
+    font-size: 55px;
+}
+#izquierda{
+    display: flex;
+    justify-self: left;
+}
+#reseña1{
+    width: 700px;
+    font-size: 24px;
+     color: #4d2e00;
+      font-family: Arial, sans-serif;
+       font-weight: bold;
+}
 .child1, .child2, .child3 {
     width: 300px;
     height: 400px;
-    background-color: rgb(102, 67, 24);
+    background-color:  rgb(138, 102, 52);
     border-radius: 15px;
     display: flex;
     flex-direction: column;  
     align-items: normal;    
     text-align: center;
+     color: #4d2e00;
 }
 .child1 p{
-
+    margin-top: 1%;
     font-size: 20px;
 }
 .child2 p{
-
+ margin-top: 1%;
     font-size: 20px;
 }
 .child3 p{
-
+ margin-top: 1%;
     font-size: 20px;
 }
 .prod1 {
@@ -258,4 +284,170 @@ h2 {
 
 .footer a:hover {
     color: #E1306C;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    top: 5px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .navbar nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .pop-up {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    top: 50%;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .pop-up .img,
+  .imagen-derecha {
+    width: 180px;
+    margin: 0 auto;
+  }
+  .third {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .third img {
+    width: 100%;
+    height: auto;
+  }
+
+  .third p {
+    font-size: 28px;
+    text-align: center;
+  }
+.fourth {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .fourth img {
+    width: 100%;
+    height: auto;
+  }
+
+  .fourth p {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .parent {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .child1,
+  .child2,
+  .child3 {
+    width: 85%;
+    height: auto;
+    padding: 20px;
+  }
+   .prod1,
+  .prod2,
+  .prod3 {
+    margin: 0 auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    margin-top: 60px;
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 480px) {
+
+  .navbar h1 {
+    font-size: 24px;
+  }
+
+  .navbar nav a {
+    font-size: 14px;
+  }
+
+  .pop-up h1 {
+    font-size: 22px;
+  }
+
+  .pop-up h2 {
+    font-size: 16px;
+  }
+ #contador {
+    font-size: 26px;
+  }
+
+  .texto-oferta {
+    font-size: 16px;
+  }
+
+  .pop-up .img,
+  .imagen-derecha {
+    width: 130px;
+  }
+
+  .third p {
+    font-size: 20px;
+  }
+  
+  .fourth p {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .child1 p,
+  .child2 p,
+  .child3 p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+
+  .pop-up {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .pop-up .img,
+  .imagen-derecha {
+    display: none;
+  }
+
+  .child1,
+  .child2,
+  .child3 {
+    width: 95%;
+  }
+   .navbar nav {
+    flex-direction: column;
+    gap: 8px;
+  }
 }
