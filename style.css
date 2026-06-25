@@ -1,7 +1,7 @@
 body{
     padding-top: 100px;
-background-color: rgb(192, 138, 66);
-color: #4d2e00;
+    background-color: #f0f7f9;
+    color: #2c3e50; 
 }
 p{
     font-weight: bold;
@@ -9,7 +9,7 @@ p{
 .pop-up {
     width: 80%;
     height: 60%;
-    background-color: rgb(202, 148, 82);
+    background-color: #fef9e7;
     border-radius: 15px;
     position: fixed;
     top: 53%;
@@ -19,7 +19,7 @@ p{
     padding-bottom: 15px;
     text-align: center;
     z-index: 101;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
      display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,20 +48,20 @@ p{
 .cerrar {
     padding: 10px;
     border: none;
-    background-color: rgb(103, 76, 35);
-    color: rgb(0, 0, 0);
+    background-color: #7f8c8d;
+    color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .cerrar:hover {
-    background-color: #ff0101;
+    background-color: #c0392b;
 }
 
 .second {
     width: auto;
     height: 500px;
-    background-color: rgb(138, 102, 52);
+    background-color: #d4e6f1;
     border-radius: 15px;
     margin-top: 120px;
 }
@@ -69,7 +69,7 @@ p{
 .third {
     width: auto;
     height: 500px;
-    background-color: rgb(138, 102, 52);
+    background-color: #d4e6f1; 
     border-radius: 15px;
     margin-top: 120px;
     display: flex;
@@ -88,7 +88,7 @@ p{
 .third p {
     font-size: 50px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: #2c3e50;
     display: flex;
     align-self: center;
     flex: 1;
@@ -97,7 +97,7 @@ p{
 .fourth {
     width: auto;
     height: 500px;
-    background-color: rgb(138, 102, 52);
+    background-color: #d4e6f1; 
     border-radius: 15px;
     margin-top: 120px;
     display: flex;
@@ -106,9 +106,8 @@ p{
 }
 .fourth p{
     font-size: 30px;
-    color: #4d2e00;
+    color: #2c3e50;
     margin: 0;
-   
      display: flex;
     flex-direction: column;
     align-self: center;
@@ -138,10 +137,12 @@ h2 {
     text-align: center;
     margin-top: 20px;
     font-size: 50px;
+    color: #5b2c6f; 
 }
 #h1{
     text-align: center;
     font-size: 55px;
+    color: #5b2c6f;
 }
 #izquierda{
     display: flex;
@@ -150,20 +151,20 @@ h2 {
 #reseña1{
     width: 700px;
     font-size: 24px;
-     color: #4d2e00;
+     color: #2c3e50;
       font-family: Arial, sans-serif;
        font-weight: bold;
 }
 .child1, .child2, .child3 {
     width: 300px;
     height: 400px;
-    background-color:  rgb(138, 102, 52);
+    background-color:  #ebdef0;
     border-radius: 15px;
     display: flex;
     flex-direction: column;  
     align-items: normal;    
     text-align: center;
-     color: #4d2e00;
+     color: #2c3e50;
 }
 .child1 p{
     margin-top: 1%;
@@ -183,6 +184,7 @@ h2 {
     height: 150px;
     justify-content: center;
     margin-left: 60px;
+    
 }
 
 .prod2 {
@@ -191,6 +193,7 @@ h2 {
     width: 150px;
     height: 150px;
     margin-left: 50px;
+   
 }
 
 .prod3 {
@@ -198,6 +201,7 @@ h2 {
     height: 150px;
     display: flex;
     justify-content: center;
+   
 }
 
 .navbar {
@@ -206,15 +210,14 @@ h2 {
     left: 20px;
     right: 20px;
     width: auto;
-    background-color: #936c31;
-    color: rgb(0, 0, 0);
+    background-color: #db7093;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 999;
     border-radius: 15px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .footer {
@@ -222,23 +225,23 @@ h2 {
     margin-top: 150px;
     padding: 50px 40px;
     text-align: left;
-    color: rgb(0, 0, 0);
-    background-color: #936c31;
+    color: #2c3e50;
+    background-color: #db7093;
     border-radius: 15px;
-    border-top: 1px solid rgba(239, 37, 37, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .navbar h1 {
     font-family: "Rubik Beastly", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb(94, 62, 28);
+    color: #5b2c6f;
 }
 
 .navbar nav a {
     font-family: Arial, sans-serif;
     text-decoration: none;
-    color: rgb(93, 68, 41);
+    color: #2c3e50;
     font-size: 18px;
     font-weight: bold;
 }
@@ -247,7 +250,7 @@ h2 {
     font-family: "Rubik Beastly", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb(94, 62, 28);
+    color: #5b2c6f;
 }
 
 #contador {
@@ -261,7 +264,7 @@ h2 {
 .fourth p {
     font-family: Arial, sans-serif;
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: #2c3e50;
     margin: 0;
     text-align: justify;
     display: flex;
@@ -278,14 +281,16 @@ h2 {
 
 .footer a {
     text-decoration: none;
-    color: black;
+    color: #2c3e50;
     font-size: 20px;
 }
 
 .footer a:hover {
-    color: #E1306C;
+    color: #5b2c6f;
 }
-
+#dire{
+  font-size: larger;
+}
 
 @media (max-width: 768px) {
 
@@ -402,6 +407,7 @@ h2 {
 
   .texto-oferta {
     font-size: 16px;
+    
   }
 
   .pop-up .img,
@@ -448,4 +454,29 @@ h2 {
     flex-direction: column;
     gap: 8px;
   }
+}
+#carouselExampleFade {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.boton-comprar {
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #db7093;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.boton-comprar:hover {
+    background-color: #5b2c6f; 
+}
+h2,h1,p{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
 }
